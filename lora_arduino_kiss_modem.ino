@@ -27,9 +27,9 @@ enum KissCmd {
 #define DEFAULT_P             128
 #define DEFAULT_SLOT_TIME     500
 
-#define CFG_LORA_PIN_SS       18
-#define CFG_LORA_PIN_RST      14
-#define CFG_LORA_PIN_DIO0     26
+#define CFG_LORA_PIN_SS       SS //18
+#define CFG_LORA_PIN_RST      RST_LoRa //14
+#define CFG_LORA_PIN_DIO0     DIO0 //26
 
 #define CFG_LORA_FREQ         433.775E6
 #define CFG_LORA_SYNC_WORD    0x34
